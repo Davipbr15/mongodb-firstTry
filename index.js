@@ -3,8 +3,9 @@ const { MongoClient } = require("mongodb");
 const username = "davipbr15";
 const password = "rbOyPt4XCHejTmvg";
  
-// Replace the following with your Atlas connection string                                                                                                                                        
-const url = "mongodb+srv://" + username + ":" + password + "@clustername.mongodb.net/test?retryWrites=true&w=majority&useNewUrlParser=true&useUnifiedTopology=true";
+// Replace the following with your Atlas connection string               
+const url = "mongodb+srv://" + username + ":" + password + "@cluster0.asrju.mongodb.net";                                                                                                              
+const url2 = "mongodb+srv://" + username + ":" + password + "@clustername.mongodb.net/test?retryWrites=true&w=majority&useNewUrlParser=true&useUnifiedTopology=true";
 const client = new MongoClient(url);
  
  // The database to use
